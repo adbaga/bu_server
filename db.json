@@ -1,16 +1,111 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
+  "BUs": [
+  {
+  "buID": 1,
+  "name": "Logistic",
+  "city": "Tallinn",
+  "activated": true,
+  "members": [{
+    "userID": 1,
+    "firstName": "Kuehne",
+    "lastName": "Nagel",
+    "role": "Manufacturing Manager",
+    "company": "Kuehne Nagel",
+    "deadline": "2021-12-24T09:56:52+0000",
+    "activated": true
+  },
+      {
+    "userID": 2,
+    "firstName": "Sergey",
+    "lastName": "Lazarev",
+    "role": "Product manager",
+    "company": "Kuehne Nagel",
+    "deadline": "2021-12-24T09:56:52+0000",
+    "activated": false
+
+  },
+  
+   {
+     "userID": 3,
+    "firstName": "Verka",
+    "lastName": "Serduchka",
+    "role": "Product Manager",
+    "company": "Kuehne Nagel",
+    "deadline": "2021-12-24T09:56:52+0000",
+    "activated": true
+
+  }
+    
+    ]
+  },
+  {
+  "buID": 2,
+  "name": "Custom Clearance",
+  "city": "Tallinn",
+  "activated": true
+  },
+  {
+  "buID": 3,
+  "name": "Delivery",
+  "city": "Narva",
+  "activated": true
+  },
+  {
+  "buID": 4,
+  "name": "Maintenance",
+  "city": "Tartu",
+  "activated": true
+  },
+  
+  {
+  "buID": 5,
+  "name": "Special Cargo",
+  "city": "Paldiski",
+  "activated": true
+  },
+  {
+  "buID": 6,
+  "name": "Perishable Goods",
+  "city": "Paldiski",
+  "activated": true
+  },
+  {
+  "buID": 7,
+  "name": "Live Stocks",
+  "city": "Tartu",
+  "activated": true
+  },
+  {
+  "buID": 8,
+  "name": "Live Stocks",
+  "city": "Parnu",
+  "activated": true
+  },
+  {
+  "buID": 9,
+  "name": "Live Stocks",
+  "city": "Saku",
+  "activated": true
+  },
+  {
+  "buID": 10,
+  "name": "Live Stocks",
+  "city": "Mardu",
+  "activated": true
+  },
+  {
+  "buID": 11,
+  "name": "Live Stocks",
+  "city": "Vōru",
+  "activated": true
+  },
+  {
+  "buID": 12,
+  "name": "Live Stocks",
+  "city": "Kurresaare",
+  "activated": true
+  }
+  
   ]
+
 }
